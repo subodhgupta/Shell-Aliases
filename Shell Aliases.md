@@ -2,7 +2,7 @@
 
 ##### BE CAREFUL WHEN USING ALIASES
 
-**## ##Use Sudo with Aliases**
+**##Use Sudo with Aliases**
 
 ```
 alias sudo='sudo '
