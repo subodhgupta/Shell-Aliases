@@ -46,7 +46,7 @@ function lsdu() { ls -l $* | sort --key=5.1 -n; };
 
 **## Count the number of files in current directory**
 ```
-alias lsc='ls -l | wc -l' **
+alias lsc='ls -l | wc -l'
 ```
 
 **## Find files in the current/root directory by name**
