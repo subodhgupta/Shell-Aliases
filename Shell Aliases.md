@@ -8,6 +8,11 @@
 alias sudo='sudo '
 ```
 
+**##Change cd.. to "cd .."##**
+```
+alias cd..='cd ..'
+```
+
 **## Colorize the ls output**
 ```
 alias ls='ls --color=auto'
@@ -55,11 +60,6 @@ alias ff='find . -name $1'
 alias fr='find / -name $1'
 ```
 
-**## Reopen file last edit in vi, in edit mode in vi again**
-```
-!vi
-**## Technically not an alias, just a short-cut
-```
 **## Search history**
 ```
 alias hg='history | grep -i'
@@ -79,6 +79,11 @@ alias totalusage='df -hl --total | grep total'
 alias most='du -hsx * | sort -rh | head -10'
 ```
 
+**## Start vi with sudo**
+```
+alias svi='sudo vi'
+```
+
 **## Resume wget by default**
 ```
  alias wget='wget -c'
@@ -88,7 +93,13 @@ alias most='du -hsx * | sort -rh | head -10'
 ```
 alias meminfo='free -m -l -t'
 ```
- 
+
+**##Create Parent directories on demand##**
+```
+alias mkdir='mkdir -pv'
+```
+
+
 **## Get top process eating memory**
 ```
 alias psmem='ps auxf | sort -nr -k 4'
@@ -150,4 +161,11 @@ alias ga='g add'
 alias gc='git commit -m'
 alias gp='git push origin master'
 alias gl='git pull origin master'
+```
+
+
+**## Reopen file last edit in vi, in edit mode in vi again**
+```
+!vi
+**## Technically not an alias, just a short-cut
 ```
