@@ -121,14 +121,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-#mount drive
-if [ ! -d ~/networkshare/nsa320/Media ]; then
-	sudo mount -a
-fi
 
 ##Use Sudo with Aliases
-
 alias sudo='sudo '
+
 ##Change cd.. to "cd .."##
 
 alias cd..='cd ..'
