@@ -21,6 +21,6 @@ network:
       addresses: [192.168.86.61/24]
       gateway4: 192.168.86.1
       nameservers:
-        addresses: [192.168.0.1, 8.8.8.8]
+        addresses: [192.168.86.245,192.168.86.244]
       access-points:
         "5KPS8":
