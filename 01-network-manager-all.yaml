@@ -8,15 +8,18 @@ network:
   renderer: networkd
   ethernets:
     enp2s0:
-     dhcp4: no
-     addresses: [192.168.86.60/24]
-     gateway4: 192.168.86.1
-     nameservers:
-       addresses: [192.168.86.245,192.168.86.244]
+      dhcp4: no
+      addresses: [192.168.86.60/24]
+      gateway4: 192.168.86.1
+      nameservers:
+        addresses: [192.168.86.245,192.168.86.244]
   wifis:
     wlp4s0:
-     dhcp4: no
-     addresses: [192.168.86.61/24]
-     gateway4: 192.168.86.1
-     nameservers:
-       addresses: [192.168.86.245,192.168.86.244]       
+      dhcp4: no
+      optional: true
+      addresses: [192.168.86.61/24]
+      gateway4: 192.168.86.1
+      access-points:
+        "5KPS8"
+      nameservers:
+        addresses: [192.168.86.245,192.168.86.244]
